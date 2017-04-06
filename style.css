@@ -35,159 +35,159 @@ a img {
 #header {
     width: 900px; /* modifica a largura do header para 900px */
     height: 130px; /* altera a altura do header para 130px */
-    margin: 0px auto;
-    background: #699C4D;
+    margin: 0px auto; /* tira as margens do topo e de baixo e deixa as margens laterais automaticas */
+    background: #699C4D; /* altera a cor de fundo */
 }
 #header a {
-    text-decoration: none;
-    color: #FFFFFF;
+    text-decoration: none; /* retira o sublinhado dos links no header */
+    color: #FFFFFF; /* muda a cor dos links para branco */
 }
 /* Logo */
 #logo {
-    float: left;
-    background: url(images/img03.jpg) no-repeat left top;
-    padding-left: 70px;
+    float: left; /* posiciona o logo para o lado direito */
+    background: url(images/img03.jpg) no-repeat left top; /* coloca a imagem de logo */
+    padding-left: 70px; /* adiciona 70 pixel de preenchimento entre a borda e o conteúdo */
 }
 #logo h1, #logo p {
-    margin: 0px;
-    line-height: normal;
-    font-weight: normal;
-    color: #FFFFFF;
+    margin: 0px; /* retira a borda do h1 e p dentro do logo */
+    line-height: normal; /* deixa a altura da linha normal */
+    font-weight: normal; /* deixa a grossura da fonte normal */
+    color: #FFFFFF; /* altera a cor da font para branco */
 }
 #logo h1 {
-    padding: 25px 0px 0px 0px;
+    padding: 25px 0px 0px 0px; /* adiciona 25 pixel de prenchimento no topo e retira o preenchimento dos outros lados */
 }
 /* Menu */
 #menu {
-    float: right;
-    background: #243F12;
-    border-top: 2px #9BC56F solid;
-    margin: 30px 0 0 0;
+    float: right; /* posiciona o menu a direita da página */
+    background: #243F12; /* altera a cor do background */
+    border-top: 2px #9BC56F solid; /* adiciona 2px de borda no topo do menu com cor esverdeada e solida */
+    margin: 30px 0 0 0; /* adicona uma margem de 30 px no topo */
 }
 #menu ul {
-    margin: 0px 0 0 0;
-    padding: 0px 0px 0px 0px;
-    list-style: none;
-    line-height: normal;
+    margin: 0px 0 0 0; /* retira a margem de listas não ordenadas no menu */
+    padding: 0px 0px 0px 0px; /* retira o prenchimento de listas não ordenadas no menu */
+    list-style: none; /* retira os pontos das listas não ordenadas no menu */
+    line-height: normal; /* deixa o tamanho das linhas normal */
 }
 #menu li {
-    float: left;
-    margin: 0px 0px 0px 1px;
+    float: left; /* posiciona os itens da lista a direita da anterior */
+    margin: 0px 0px 0px 1px; /* adiciona 1px a esquerda de margem */
 }
 #menu a {
-    display: block;
-    width: auto;
-    height: 28px;
-    padding: 12px 20px 0px 20px;
-    background: url(images/img02.jpg) no-repeat right 50%;
+    display: block; /* faz com que a caixa inteira do link seja mostrada */
+    width: auto; /* deixa o tamanho da largura com tamanho suficiente para mostrar o conteúdo do elemento */
+    height: 28px; /* aumenta a altura do elemento */
+    padding: 12px 20px 0px 20px; /* adiciona um prenchimento no elemento de 12px para o top 20px na direita e esquerda */
+    background: url(images/img02.jpg) no-repeat right 50%; /* adiciona imagem de fundo a direita sem repetição formando uma divisória entres os links */
 }
 #menu a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* adiciona sublinhado quando o mouse está em cima do link */
 }
 #menu .first {
-    background: none;
+    background: none; /* retira o background do primeiro link */
 }
 #menu .active a {
 }
 /* Page */
 #page {
-    width: 900px;
-    margin: 0px auto;
-    padding: 30px 0px;
+    width: 900px; /* deixa a largura da página com 900px */
+    margin: 0px auto; /* retira as margens do topo e de baixo e adiciona margem na esquerda e na direita */
+    padding: 30px 0px; /* adiciona 30px de preenchimento em cima e em baixo do elemento e retira o preenchimento das laterais */
 }
 /* Content */
 #content {
-    float: right;
-    width: 570px;
+    float: right; /* elemento vai para a direita da página */
+    width: 570px; /* muda o tamanho do elemento para 570px */
 }
 .post {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 0px; /* adiciona uma margem de 30px em baixo da borda do post */
 }
 .post .title {
-    margin: 0px;
-    padding: 0px 0px 5px 0px;
-    border-bottom: #BFC9AE solid 1px;
-    color: #232F01;
+    margin: 0px; /* tira a margem dos títulos de posts */
+    padding: 0px 0px 5px 0px; /* adiciona um preenchimento na parte de baixo do título */
+    border-bottom: #BFC9AE solid 1px; /* adiciona uma borda cinza solida de 1px abaixo do título */
+    color: #232F01; /* muda a cor do texto do título para um verde escuro */
 }
 .post .title a {
-    color: #232F01;
+    color: #232F01; /* muda a cor do link */
 }
 .post .entry {
 }
 .post .meta {
-    font-weight: bold;
+    font-weight: bold; /* deixa a fonte em negrito */
 }
 .post .byline {
-    margin: 0px;
+    margin: 0px; /* retira a margem do elemento */
 }
 /* Sidebar */
 #sidebar {
-    float: left;
-    width: 300px;
+    float: left; /* deixa a sidebar a esquerda do content */
+    width: 300px; /* muda o tamanho da largura para 300px */
 }
 #sidebar-bgtop {
-    height: 3px;
+    height: 3px; /* tamanho da div alterado para 3px */
 }
 #sidebar-bgbtm {
-    height: 3px;
+    height: 3px; /* tamanho da div alterado para 3px */
 }
 #sidebar-content {
-    padding: 20px;
+    padding: 20px; /* adiciona um preenchimento de 20px para o content */
 }
 #sidebar ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+    margin: 0px; /* retira a margem do elemento */
+    padding: 0px; /* retira o preenchimento do elemento */
+    list-style: none; /* retira os pontos antes do item da lista */
 }
 #sidebar li ul {
-    margin-bottom: 1.8em;
-    padding-left: 20px;
-    list-style: none;
+    margin-bottom: 1.8em; /* coloca uma margem na parte de baixo do elemento com o tamanho relativo a fonte do elemento pai */
+    padding-left: 20px; /* adiciona um preenchimento de 20px a esquerda */
+    list-style: none; /* retira os pontos antes do item da lista */
 }
 #sidebar h2 {
-padding: 4px 20px;
-background: #699C4D;
-font-size: 1.2em;
-color: #FFFFFF;
+    padding: 4px 20px; /* 4 px de preenchimento no topo e em baixo e 20 px de preenchimento nas laterais */
+    background: #699C4D; /* muda a cor de fundo */
+    font-size: 1.2em; /* muda o tamanho da fonte em relação a fonte do elemento pai */
+    color: #FFFFFF; /* muda a cor da fonte para branco */
 }
 #sidebar a {
-text-decoration: none;
-color: #232F01;
+    text-decoration: none; /* retira underlines de links na sidebar */
+    color: #232F01; /* muda cor da fonte do link */
 }
 #sidebar a:hover {
-text-decoration: underline;
+    text-decoration: underline; /* adiciona underline em links com o mouse em cima */
 }
 /* Search */
 #search {
-    }
+}
 #search form {
-margin-bottom: 1.8em;
-padding: 0px;
+    margin-bottom: 1.8em; /* margem em baixo do form de pesquisa */
+    padding: 0px; /* muda o preenchimento para 0px */
 }
 #search fieldset {
-margin: 0px;
-padding: 0px;
-border: none;
+    margin: 0px; /* retira margem */
+    padding: 0px; /* retira preenchimento */
+    border: none; /* retira bordas */
 }
 #search #s {
-width: 160px;
+    width: 160px; /* muda a largura para 160 px */
 }
 /* Footer */
 #footer {
-clear: both;
-width: 900px;
-height: 50px;
-margin: 0px auto 30px auto;
-color: #FFFFFF;
-background: #699C4D;
+    clear: both; /* retira elementos laterais do footer fazendo com que ele apareça em baixo da página ao inves de aparecer em cima */
+    width: 900px; /* muda a largura para 900px */
+    height: 50px; /* muda o tamanho para 50 px */
+    margin: 0px auto 30px auto; /* muda a margem para 0px no top 30 px em baixo e automatica nas bordas laterais */
+    color: #FFFFFF; /* altera cor de fonte para branco */
+    background: #699C4D; /* muda o plano de fundo para verde */
 }
 #footer p {
-margin: 0px;
-padding: 19px 0px 0px 0px;
-text-align: center;
-line-height: normal;
-font-size: smaller;
+    margin: 0px; /* retira a margem do elemento */
+    padding: 19px 0px 0px 0px; /* 19px de preenchimento no topo */
+    text-align: center; /* alinha o texto no centro */
+    line-height: normal; /* deixa o tamanho da linha com o tamanho padrão */
+    font-size: smaller; /* muda o tamanho da fonte para um tamanho pequeno */
 }
 #footer a {
-color: #FFFFFF;
+    color: #FFFFFF; /* muda a cor do link para branco */
 }
